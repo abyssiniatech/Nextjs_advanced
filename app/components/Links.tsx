@@ -8,7 +8,9 @@ const link=[
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Product", href: "/product" },
-    { name: "Contact", href: "/contact" }
+    { name: "Contact", href: "/contact" },
+    { name: "Api", href: "/api" },
+
 ]
 const Links = () => {
   return (
