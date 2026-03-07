@@ -1,11 +1,11 @@
+import React from 'react'
 
-
-const UserPage = () => {
+const page = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-between p-24 border-2 border-gray-300">
-        <h1 className="text-2xl"> User page!</h1>
+    <div className="min-h-screen flex flex-col items-center justify-center p-4  ">
+      <h1>user page</h1>
     </div>
   )
 }
 
-export default UserPage
+export default page
