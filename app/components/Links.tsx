@@ -12,6 +12,7 @@ const link=[
     { name: "Api", href: "/api" },
     { name: "Basic", href: "/basic" },
     { name: "Contact", href: "/contact" },
+    { name: "Projects", href: "/projects" },
 
 ]
 const Links = () => {
