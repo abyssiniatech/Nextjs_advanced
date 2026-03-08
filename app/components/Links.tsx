@@ -10,6 +10,7 @@ const link=[
     { name: "Product", href: "/product" },
     {name:"Users", href:"/users"},
     { name: "Api", href: "/api" },
+    { name: "Basic", href: "/basic" },
     { name: "Contact", href: "/contact" },
 
 ]
