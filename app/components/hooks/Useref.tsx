@@ -1,17 +1,28 @@
-import React, { useRef } from "react"
+import React, { useRef } from "react";
 
 const Useref = () => {
-const inputref = useRef<React.Ref<HTMLInputElement> | undefined >(null)
-const handlefocus =()=>{
-    inputref.current?.focus()
+  const inputRef = useRef<HTMLInputElement | null>(null);
 
-}
+  const handleFocus = () => {
+    inputRef.current?.focus();
+  };
+
   return (
     <div>
-      <input type="text" ref={inputref}  className="p-4 rounded"/>
-      <button  onClick={handlefocus} className="bg-pink-700 text-700 rounded px-4 py-2 hover:bg-pink-600">Focus</button>
-    </div>
-  )
-}
+      <input
+        type="text"
+        ref={inputRef}
+        className="p-4 rounded"
+      />
 
-export default Useref
+      <button
+        onClick={handleFocus}
+        className="bg-pink-700 text-white rounded px-4 py-2 hover:bg-pink-600"
+      >
+        Focus
+      </button>
+    </div>
+  );
+};
+
+export default Useref;
