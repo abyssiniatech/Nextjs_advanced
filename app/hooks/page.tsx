@@ -1,3 +1,4 @@
+import Childcontext from "../components/hooks/Childcontext"
 import Useeffect from "../components/hooks/Useeffect"
 import Usereducer from "../components/hooks/Usereducer"
 import Useref from "../components/hooks/Useref"
@@ -11,6 +12,7 @@ const Hookpage = () => {
        <Useeffect />
        <Useref />
        <Usereducer />
+       <Childcontext />
     </div>
   )
 }
