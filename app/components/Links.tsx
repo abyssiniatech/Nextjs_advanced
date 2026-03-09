@@ -13,6 +13,7 @@ const link=[
     { name: "Basic", href: "/basic" },
     { name: "Contact", href: "/contact" },
     { name: "Projects", href: "/projects" },
+    { name: "Hooks", href: "/hooks" },
 
 ]
 const Links = () => {

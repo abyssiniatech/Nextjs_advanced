@@ -21,4 +21,4 @@ const BlogList = ({ blogs }: Props) => {
   )
 }
 
-export default BlogList
+export default BlogListyyy
