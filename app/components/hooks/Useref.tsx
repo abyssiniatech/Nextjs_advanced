@@ -1,4 +1,6 @@
-import React, { useRef } from "react";
+   "use client"
+
+import  { useRef } from "react";
 
 const Useref = () => {
   const inputRef = useRef<HTMLInputElement | null>(null);

@@ -20,7 +20,7 @@ const Parentstate = () => {
           Change User
         </button>
         <button
-          className="bg-teal-800 text-white rounded px-4 py-2 "
+          className="bg-teal-800 m-4 text-white rounded px-4 py-2 "
           onClick={() => setAge(30)}>
           Change Age
         </button>
