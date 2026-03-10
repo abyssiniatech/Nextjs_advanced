@@ -14,7 +14,7 @@ const Refcounter = () => {
   }
 
   return (
-    <div className="bg-slate-900 text-white min-h-screen flex justify-center flex-col items-center gap-4">
+    <div className="bg-slate-900  text-white min-h-screen flex justify-center flex-col items-center gap-4">
       {/* Do not try to use textRef.current here */}
       <p ref={textRef}>0</p>
 
