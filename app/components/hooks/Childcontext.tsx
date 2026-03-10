@@ -3,12 +3,15 @@
 
 import { useContext } from 'react'
 import { usercontext } from './Parentstate'
+import { Agecontext } from './Parentstate'
 const Childcontext = () => {
     // child context
     const  user = useContext(usercontext)
+    const age = useContext(Agecontext)
   return (
     <div className="bg-slate-800 text-white min-h-screen p-4 flex flex-col justify-center items-center gap-2   my-4">
       <p className='text-2xl'>my name is :{user}</p>
+      <p className='text-2xl'>I am age is :{age} years old</p>
     </div>
   )
 }
