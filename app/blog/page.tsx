@@ -1,20 +1,8 @@
-// import BlogList from "@/components/BlogList"
-import {BlogList} from "@/components/BlogList"
-import { blogs } from "@/data/blogs"
-export default function BlogPage() {
-  return (
-    <main className="min-h-screen bg-gray-100 py-12 px-6">
+export default function Blog(){
+  return(
+    <div className="bg-indigo-900 text-white flex justify-center items-center min-h-screen">
+      <h1>Blog page!</h1>
 
-      <div className="max-w-7xl mx-auto">
-
-        <h1 className="text-4xl font-bold mb-10 text-center">
-          Tech Blog
-        </h1>
-
-        <BlogList blogs={blogs} />
-
-      </div>
-
-    </main>
+    </div>
   )
 }
